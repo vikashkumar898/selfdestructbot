@@ -56,6 +56,6 @@ bot.onText(/\/start/, function (msg) {
   if (msg.chat.type != 'private') return;
 
   var fromId = msg.from.id;
-  var resp = `Hello!\nI work in inline mode, that means that you just need to write @${bot.username} followed by your message, then wait a moment for the options to show up.\nSelect the amount of time desired and you're done! ;)\n\nSource code (leave a star!): https://github.com/vikashkumar898/selfdestructbot/n- a bot by @n0va_isme.`;
+  var resp = `Hello!\nI work in inline mode, that means that you just need to write @${bot.username} followed by your message, then wait a moment for the options to show up.\nSelect the amount of time desired and you're done! ;)\n\nMust Join @knightgiveaways A bot by @n0va_isme.`;
   bot.sendMessage(fromId, resp);
 });
